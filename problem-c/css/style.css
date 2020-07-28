@@ -9,7 +9,11 @@ table {
     width: 50%;
     border-collapse: collapse;
 }
-thead {
+th, td {
+    padding: .5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+thead tr th{
     height: 2rem;
     text-align: left;
     color: #1db954;
@@ -18,10 +22,6 @@ thead {
 img {
     height: 100px;
     width: 100px;
-}
-th, td {
-    padding: .5em;
-    border-bottom: 1px solid #d3d3d3;
 }
 tbody tr:nth-of-type(even) {
     background-color: #eee;
