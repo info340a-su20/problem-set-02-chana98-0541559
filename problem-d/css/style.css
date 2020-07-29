@@ -49,6 +49,7 @@ nav span {
     background-image: url("../img/ischool-symbol-white.png");
     position: left contain; 
     background-repeat: no-repeat;
+    background-size: contain;
 }
 div.searchBox {
     float: right;
